@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World War II Quiz Game</title>
+    <link rel="canonical" href="https://www.triviagk.com/world-warII-quiz-game"/>
+    <link rel="icon" href="favicon.webp" type="image/webp">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="mentor.css">
+    <link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+    <header>
+        <h1>World War II Quiz Game</h1>
+    </header>
+    <div class="question-content">
+        <main class="content-quiz-game d-flex flex-column gap-3 align-items-center">
+
+            <div class="result d-flex justify-content-around">
+
+                <div>
+                    <h4 class="score">Score: 0</h4>
+                </div>
+
+                <div>
+                    <h4 class="questionscore">20 Questions / 1</h4>
+                </div>
+
+            </div> <!--Close the result div-->
+
+            <div class="quiz-item-1">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>Which country did Germany invade first to start World War II?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">France</button>
+                            <button class="quiz-option" data-answer="incorrect">Belgium</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="correct">Poland</button>
+                            <button class="quiz-option" data-answer="incorrect">Austria</button>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div> <!--Close the Quiz item 1 div-->
+
+            <div class="quiz-item-2 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>Who was the leader of Russia during the Second World War?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="correct">Joseph Stalin</button>
+                            <button class="quiz-option" data-answer="incorrect">Leon Trotsky</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Vladimir Lenin</button>
+                            <button class="quiz-option" data-answer="incorrect">Nikita Khrushchev</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+
+                </div>
+            </div> <!--Close the Quiz item 2 div-->
+
+            <div class="quiz-item-3 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>Who was Prime Minister when Britain declared war on Germany?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Clement Attlee</button>
+                            <button class="quiz-option" data-answer="incorrect">Winston Churchill</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Stanley Baldwin</button>
+                            <button class="quiz-option" data-answer="correct">Neville Chamberlain</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 3 div-->
+
+            <div class="quiz-item-4 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>How did Adolf Hitler die at the end of the war?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Allied forces</button>
+                            <button class="quiz-option" data-answer="incorrect">Car accident</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="correct">Suicide by gunshot</button>
+                            <button class="quiz-option" data-answer="incorrect">Poisoned by his staff</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 4 div-->
+
+            <div class="quiz-item-5 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>What was the first city to be attacked with an Atomic Bomb?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="correct">Hiroshima</button>
+                            <button class="quiz-option" data-answer="incorrect">Tokyo</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Nagasaki</button>
+                            <button class="quiz-option" data-answer="incorrect">Berlin</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 5 div-->
+
+            <div class="quiz-item-6 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>What country did Japan invade in 1938?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Korea</button>
+                            <button class="quiz-option" data-answer="incorrect">Vietnam</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="correct">China</button>
+                            <button class="quiz-option" data-answer="incorrect">Philippines</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 6 div-->
+
+            <div class="quiz-item-7 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>What was the name of the battles in the Pacific?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Battle of Stalingrad</button>
+                            <button class="quiz-option" data-answer="incorrect">Battle of the Bulge</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Battle of El Alamein</button>
+                            <button class="quiz-option" data-answer="correct">Battle of Okinawa</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 7 div-->
+
+            <div class="quiz-item-8 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>What was the codename for the D-Day invasion in 1944?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Operation Torch</button>
+                            <button class="quiz-option" data-answer="correct">Operation Overlord</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Operation Barbarossa</button>
+                            <button class="quiz-option" data-answer="incorrect">Operation Neptune</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 8 div-->
+
+            <div class="quiz-item-9 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>What was the name of the Jewish girl whose diaries, recording her life in hiding, were published after the war?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="correct">Anne Frank</button>
+                            <button class="quiz-option" data-answer="incorrect">Elie Wiesel</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Corrie ten Boom</button>
+                            <button class="quiz-option" data-answer="incorrect">Viktor Frankl</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 9 div-->
+
+            <div class="quiz-item-10 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>Which army invaded the city of Berlin first?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">British Army</button>
+                            <button class="quiz-option" data-answer="incorrect">American Army</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="correct">Soviet Army</button>
+                            <button class="quiz-option" data-answer="incorrect">French Army</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 10 div-->
+
+            <div class="quiz-item-11 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>What two countries declared war on Germany when Germany invaded Poland?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">United States and Canada</button>
+                            <button class="quiz-option" data-answer="incorrect">Japan and China</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="correct">Britain and France</button>
+                            <button class="quiz-option" data-answer="incorrect">Soviet Union and Italy</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 11 div-->
+
+            <div class="quiz-item-12 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>Which technology helped Great Britain defeat the Germans in the Battle of Britain?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="correct">Radar</button>
+                            <button class="quiz-option" data-answer="incorrect">Submarine warfare</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Tanks</button>
+                            <button class="quiz-option" data-answer="incorrect">Jet propulsion</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 12 div-->
+
+            <div class="quiz-item-13 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>What is U-Boat?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Naval aircraft</button>
+                            <button class="quiz-option" data-answer="correct">German Submarine</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">British battleship</button>
+                            <button class="quiz-option" data-answer="incorrect">American aircraft carrier</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 13 div-->
+
+            <div class="quiz-item-14 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>What area did German troops occupy in 1936?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">The Sudetenland</button>
+                            <button class="quiz-option" data-answer="incorrect">Austria</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Czechoslovakia</button>
+                            <button class="quiz-option" data-answer="correct">The Rhineland</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 14 div-->
+
+            <div class="quiz-item-15 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>Where did Germany suffer its greatest military defeats?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Normandy</button>
+                            <button class="quiz-option" data-answer="incorrect">Kursk</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="correct">Eastern Front</button>
+                            <button class="quiz-option" data-answer="incorrect">El Alamein</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 15 div-->
+
+            <div class="quiz-item-16 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>William Hitler, Adolf Hitler's nephew, served in the Navy for which nation?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Germany</button>
+                            <button class="quiz-option" data-answer="incorrect">United Kingdom</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="correct">United States</button>
+                            <button class="quiz-option" data-answer="incorrect">Italy</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 16 div-->
+
+            <div class="quiz-item-17 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>What was a key to the American success at the Battle of Midway?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Superior naval numbers</button>
+                            <button class="quiz-option" data-answer="correct">Breaking the Code</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Better-trained pilots</button>
+                            <button class="quiz-option" data-answer="incorrect">Superior numbers of aircraft</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 17 div-->
+
+            <div class="quiz-item-18 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>What was the strategy used by the US for attacking Japan?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Blitzkrieg tactics</button>
+                            <button class="quiz-option" data-answer="incorrect">Trench warfare</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="correct">Island hopping</button>
+                            <button class="quiz-option" data-answer="incorrect">Naval blockades</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 18 div-->
+
+            <div class="quiz-item-19 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>What were the Japanese fighter planes called?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Falcon</button>
+                            <button class="quiz-option" data-answer="correct">Zeroes</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Tiger</button>
+                            <button class="quiz-option" data-answer="incorrect">Hawk</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 19 div-->
+
+            <div class="quiz-item-20 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>Which country lost the most civilians in WW2?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Germany</button>
+                            <button class="quiz-option" data-answer="incorrect">Japan</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">China
+                            </button>
+                            <button class="quiz-option" data-answer="correct">Soviet Union</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 20 div-->
+
+
+            <button type="button" class="next">Next</button>
+            <button type="button" class="finish">Finish</button>
+        </main>
+    </div>
+
+    <div class="congratulation ">
+        <div class="content-quiz-game d-flex flex-column align-items-center gap-4">
+            <span class="d-flex justify-content-center">Congratulation You are Finish the Game</span>
+            <div class="result d-flex justify-content-around">
+
+                <div>
+                    <h4 class="score">Score: 0</h4>
+                </div>
+
+                <div>
+                    <h4 class="questionscore">20 Questions / 20</h4>
+                </div>
+            </div> <!--Close the result div-->
+
+            <div class="d-flex align-items-center justify-content-around " style="width: 100%;">
+                <h2>IQ Level</h2>
+                <p class="level"></p>
+            </div> <!--Close the IQ div-->
+
+            <div class="d-flex justify-content-center align-items-center">
+                <button type="button" class="Re-Start">Re-Start</button>
+            </div>
+
+            <div class="mt-3 d-flex flex-column gap-4 view-page">
+                <span>The Questions inside this Game are available on this Page</span>
+                <div class="question-section-main">
+                    <a href="warII.html" class="question-section">
+                        <img src="war II.jpg" alt="Trivia GK Questions with world war II Quiz Games">
+                        <p>World War II</p>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div> <!--Close the Congratulation div-->
+
+    <div class="parent-footer">
+        <div class="footer">
+
+            <div class="f-quiz-question d-flex flex-column gap-3">
+
+                <h3>Quiz Question</h3>
+
+                <div>
+                    <a href="general.html">
+                        <p>General Questions</p>
+                    </a>
+                    <a href="history.html">
+                        <p>History Questions</p>
+                    </a>
+                    <a href="geography.html">
+                        <p>Geography Questions</p>
+                    </a>
+                    <a href="sport.html">
+                        <p>Sports Questions</p>
+                    </a>
+                    <a href="science.html">
+                        <p>Science Questions</p>
+                    </a>
+                    <a href="literature.html">
+                        <p>Literature Questions</p>
+                    </a>
+                    <a href="technology.html">
+                        <p>Computer & Technology Questions</p>
+                    </a>
+                    <a href="warI.html">
+                        <p>World War I Questions</p>
+                    </a>
+                    <a href="warII.html">
+                        <p>World War II Questions</p>
+                    </a>
+                </div>
+
+            </div> <!--Footer Quiz Question Section-->
+
+            <span class="border-end"></span>
+
+            <div class="f-quiz-game d-flex flex-column gap-3">
+
+                <h3>Quiz Game</h3>
+
+                <div>
+
+                    <a href="generalgame.html">
+                        <p>General Quiz Game</p>
+                    </a>
+                    <a href="historygame.html">
+                        <p>History Quiz Game</p>
+                    </a>
+                    <a href="geographygame.html">
+                        <p>Geography Quiz Game</p>
+                    </a>
+
+                    <a href="sportgame.html">
+                        <p>Sports Quiz Game</p>
+                    </a>
+
+                    <a href="sciencegame.html">
+                        <p>Science Quiz Game</p>
+                    </a>
+                    <a href="literaturegame.html">
+                        <p>Literature Quiz Game</p>
+                    </a>
+
+                    <a href="technologygame.html">
+                        <p>Computer & Technology Quiz Game</p>
+                    </a>
+                    <a href="warIgame.html">
+                        <p>World War I Quiz Game</p>
+                    </a>
+
+                    <a href="warIIgame.html">
+                        <p>World War II Quiz Game</p>
+                    </a>
+                </div>
+
+
+            </div>
+
+        </div> <!--Footer Quiz Game Section-->
+    </div> <!--Close the Parent footer div-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="game.js"></script>
+</body>
+
+</html>

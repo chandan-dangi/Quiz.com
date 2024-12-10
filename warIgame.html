@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World War I Quiz Game</title>
+    <link rel="canonical" href="https://www.triviagk.com/world-warI-quiz-game"/>
+    <link rel="icon" href="favicon.webp" type="image/webp">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="mentor.css">
+    <link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+    <header>
+        <h1>World War I Quiz Game</h1>
+    </header>
+    <div class="question-content">
+        <main class="content-quiz-game d-flex flex-column gap-3 align-items-center">
+
+            <div class="result d-flex justify-content-around">
+
+                <div>
+                    <h4 class="score">Score: 0</h4>
+                </div>
+
+                <div>
+                    <h4 class="questionscore">20 Questions / 1</h4>
+                </div>
+
+            </div> <!--Close the result div-->
+
+            <div class="quiz-item-1">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>In what year did World War I start?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="correct">June 28, 1914</button>
+                            <button class="quiz-option" data-answer="incorrect"> June 28, 1915</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">August 28, 1916</button>
+                            <button class="quiz-option" data-answer="incorrect">May 28, 1917</button>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div> <!--Close the Quiz item 1 div-->
+
+            <div class="quiz-item-2 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2> How many soldiers died in the First Battle of the Marne?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">50,000</button>
+                            <button class="quiz-option" data-answer="incorrect">1,00,000</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">1,50,000</button>
+                            <button class="quiz-option" data-answer="correct">2,50,000</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+
+                </div>
+            </div> <!--Close the Quiz item 2 div-->
+
+            <div class="quiz-item-3 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2> How many years did the Great War last?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">2 Years</button>
+                            <button class="quiz-option" data-answer="correct">4 Years</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">6 Years</button>
+                            <button class="quiz-option" data-answer="incorrect">8 Years</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 3 div-->
+
+            <div class="quiz-item-4 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>What was the immediate cause of World War 1?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">sinking of the Lusitania</button>
+                            <button class="quiz-option" data-answer="correct">Assassination of Archduke Franz Ferdinand</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Signing of the Treaty of Versailles</button>
+                            <button class="quiz-option" data-answer="incorrect">Formation of the League of Nations</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 4 div-->
+
+            <div class="quiz-item-5 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>How were aircraft primarily used at the beginning of World War I?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">As bombing machines</button>
+                            <button class="quiz-option" data-answer="incorrect">For aerial dogfighting</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="correct"> For reconnaissance</button>
+                            <button class="quiz-option" data-answer="incorrect">To transport troops</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 5 div-->
+
+            <div class="quiz-item-6 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>Which nation declared war first in WWI?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="correct">Austria-Hungary</button>
+                            <button class="quiz-option" data-answer="incorrect">Germany</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Russia</button>
+                            <button class="quiz-option" data-answer="incorrect">France</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 6 div-->
+
+            <div class="quiz-item-7 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>What is the name of the organization that assassinated Archduke Franz Ferdinand?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">The Iron Guard</button>
+                            <button class="quiz-option" data-answer="incorrect">The White Rose</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="correct">The Black Hand</button>
+                            <button class="quiz-option" data-answer="incorrect">The Red Army</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 7 div-->
+
+            <div class="quiz-item-8 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>Which animals were frequently used to carry messages during World War I?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Horses</button>
+                            <button class="quiz-option" data-answer="incorrect">Dogs</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Elephants</button>
+                            <button class="quiz-option" data-answer="correct">Carrier Pigeons</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 8 div-->
+
+            <div class="quiz-item-9 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2> Who supported the Austro-Hungarian Empire?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">British Empire</button>
+                            <button class="quiz-option" data-answer="correct">Ottoman Empire</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">United States</button>
+                            <button class="quiz-option" data-answer="incorrect">France</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 9 div-->
+
+            <div class="quiz-item-10 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2> Why were the trenches used on the Western Front?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">To launch surprise attacks on the enemy</button>
+                            <button class="quiz-option" data-answer="incorrect">To store food and supplies for the troops</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">To quickly transport soldiers across the battlefield</button>
+                            <button class="quiz-option" data-answer="correct">To protect themselves</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 10 div-->
+
+            <div class="quiz-item-11 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>Which country was the first to use poison gas in World War I?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">France</button>
+                            <button class="quiz-option" data-answer="correct">Germany</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">United Kingdom</button>
+                            <button class="quiz-option" data-answer="incorrect">Italy</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 11 div-->
+
+            <div class="quiz-item-12 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>What was the name of Germany's plan for fighting France and Russia?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">The Hindenburg Plan</button>
+                            <button class="quiz-option" data-answer="incorrect">The Moltke Plan</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="correct">The Schlieffen Plan</button>
+                            <button class="quiz-option" data-answer="incorrect">The Ludendorff Strategy</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 12 div-->
+
+            <div class="quiz-item-13 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>Which innovation led to the use of trench warfare during World War I?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="correct">Machine Gun</button>
+                            <button class="quiz-option" data-answer="incorrect">Chemical Weapons</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Airplane</button>
+                            <button class="quiz-option" data-answer="incorrect">Tanks</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 13 div-->
+
+            <div class="quiz-item-14 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>Who established the Triple Entente?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Germany, Austria-Hungary, and Italy</button>
+                            <button class="quiz-option" data-answer="correct">France, Russia, and Great Britain</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">United States, Japan, and Italy</button>
+                            <button class="quiz-option" data-answer="incorrect">Russia, Germany, and Ottoman Empire</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 14 div-->
+
+            <div class="quiz-item-15 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>Why did Russia quit fighting World War I?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="correct">The Bolshevik Revolution</button>
+                            <button class="quiz-option" data-answer="incorrect"> They won a decisive victory</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">They ran out of resources</button>
+                            <button class="quiz-option" data-answer="incorrect">They signed a peace treaty with Germany</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 15 div-->
+
+            <div class="quiz-item-16 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>Which World War I battle is one of the deadliest battles in human history?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Battle of Verdun</button>
+                            <button class="quiz-option" data-answer="incorrect">Battle of Gallipoli</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="correct">Battle of the Somme</button>
+                            <button class="quiz-option" data-answer="incorrect">Battle of Tannenberg</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 16 div-->
+
+            <div class="quiz-item-17 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>Which country did Germany try to get to join them against America?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Japan</button>
+                            <button class="quiz-option" data-answer="incorrect">Italy</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Spain</button>
+                            <button class="quiz-option" data-answer="correct">Mexico</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 17 div-->
+
+            <div class="quiz-item-18 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>Which country came to help Serbia against the Austrian-Hungarian attack?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">France</button>
+                            <button class="quiz-option" data-answer="incorrect">Britain</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="correct">Russia</button>
+                            <button class="quiz-option" data-answer="incorrect">Italy</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 18 div-->
+
+            <div class="quiz-item-19 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>What is the largest battle ever fought?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Battle of Gettysburg</button>
+                            <button class="quiz-option" data-answer="correct">Battle of Stalingrad</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Battle of Kursk</button>
+                            <button class="quiz-option" data-answer="incorrect">Battle of Waterloo</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 19 div-->
+
+            <div class="quiz-item-20 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>What was the longest battle of World War I?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Battle of Gallipoli</button>
+                            <button class="quiz-option" data-answer="incorrect">Battle of the Somme</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="correct">Battle of Verdun
+                            </button>
+                            <button class="quiz-option" data-answer="incorrect">Battle of Tannenberg</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 20 div-->
+
+
+            <button type="button" class="next">Next</button>
+            <button type="button" class="finish">Finish</button>
+        </main>
+    </div>
+
+    <div class="congratulation ">
+        <div class="content-quiz-game d-flex flex-column align-items-center gap-4">
+            <span class="d-flex justify-content-center">Congratulation You are Finish the Game</span>
+            <div class="result d-flex justify-content-around">
+
+                <div>
+                    <h4 class="score">Score: 0</h4>
+                </div>
+
+                <div>
+                    <h4 class="questionscore">20 Questions / 20</h4>
+                </div>
+            </div> <!--Close the result div-->
+
+            <div class="d-flex align-items-center justify-content-around " style="width: 100%;">
+                <h2>IQ Level</h2>
+                <p class="level"></p>
+            </div> <!--Close the IQ div-->
+
+            <div class="d-flex justify-content-center align-items-center">
+                <button type="button" class="Re-Start">Re-Start</button>
+            </div>
+
+            <div class="mt-3 d-flex flex-column gap-4 view-page">
+                <span>The Questions inside this Game are available on this Page</span>
+                <div class="question-section-main">
+                    <a href="warI.html" class="question-section">
+                        <img src="war I.jpg" alt="Trivia GK Questions with world war I Quiz Games">
+                        <p>World War I</p>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div> <!--Close the Congratulation div-->
+
+    <div class="parent-footer">
+        <div class="footer">
+
+            <div class="f-quiz-question d-flex flex-column gap-3">
+
+                <h3>Quiz Question</h3>
+
+                <div>
+                    <a href="general.html">
+                        <p>General Questions</p>
+                    </a>
+                    <a href="history.html">
+                        <p>History Questions</p>
+                    </a>
+                    <a href="geography.html">
+                        <p>Geography Questions</p>
+                    </a>
+                    <a href="sport.html">
+                        <p>Sports Questions</p>
+                    </a>
+                    <a href="science.html">
+                        <p>Science Questions</p>
+                    </a>
+                    <a href="literature.html">
+                        <p>Literature Questions</p>
+                    </a>
+                    <a href="technology.html">
+                        <p>Computer & Technology Questions</p>
+                    </a>
+                    <a href="warI.html">
+                        <p>World War I Questions</p>
+                    </a>
+                    <a href="warII.html">
+                        <p>World War II Questions</p>
+                    </a>
+                </div>
+
+            </div> <!--Footer Quiz Question Section-->
+
+            <span class="border-end"></span>
+
+            <div class="f-quiz-game d-flex flex-column gap-3">
+
+                <h3>Quiz Game</h3>
+
+                <div>
+
+                    <a href="generalgame.html">
+                        <p>General Quiz Game</p>
+                    </a>
+                    <a href="historygame.html">
+                        <p>History Quiz Game</p>
+                    </a>
+                    <a href="geographygame.html">
+                        <p>Geography Quiz Game</p>
+                    </a>
+
+                    <a href="sportgame.html">
+                        <p>Sports Quiz Game</p>
+                    </a>
+
+                    <a href="sciencegame.html">
+                        <p>Science Quiz Game</p>
+                    </a>
+                    <a href="literaturegame.html">
+                        <p>Literature Quiz Game</p>
+                    </a>
+
+                    <a href="technologygame.html">
+                        <p>Computer & Technology Quiz Game</p>
+                    </a>
+                    <a href="warIgame.html">
+                        <p>World War I Quiz Game</p>
+                    </a>
+
+                    <a href="warIIgame.html">
+                        <p>World War II Quiz Game</p>
+                    </a>
+                </div>
+
+
+            </div>
+
+        </div> <!--Footer Quiz Game Section-->
+    </div> <!--Close the Parent footer div-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="game.js"></script>
+</body>
+
+</html>

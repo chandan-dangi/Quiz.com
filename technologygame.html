@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technology Quiz Game</title>
+    <link rel="canonical" href="https://www.triviagk.com/technology-quiz-game"/>
+    <link rel="icon" href="favicon.webp" type="image/webp">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="mentor.css">
+    <link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+    <header>
+        <h1>Technology Quiz Game</h1>
+    </header>
+    <div class="question-content">
+        <main class="content-quiz-game d-flex flex-column gap-3 align-items-center">
+
+            <div class="result d-flex justify-content-around">
+
+                <div>
+                    <h4 class="score">Score: 0</h4>
+                </div>
+
+                <div>
+                    <h4 class="questionscore">20 Questions / 1</h4>
+                </div>
+
+            </div> <!--Close the result div-->
+
+            <div class="quiz-item-1">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>Who is the father of computer?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Alan Turing</button>
+                            <button class="quiz-option" data-answer="incorrect">John von Neumann</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Ada Lovelace</button>
+                            <button class="quiz-option" data-answer="correct">Charles Babbage</button>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div> <!--Close the Quiz item 1 div-->
+
+            <div class="quiz-item-2 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2> A number that uniquely identifies each computer on the Internet is called?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">MAC address</button>
+                            <button class="quiz-option" data-answer="correct">IP address</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">URL</button>
+                            <button class="quiz-option" data-answer="incorrect"> Domain name</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+
+                </div>
+            </div> <!--Close the Quiz item 2 div-->
+
+            <div class="quiz-item-3 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2> Who was the first recipient of the A.M. Turing Award?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Edsger W. Dijkstra</button>
+                            <button class="quiz-option" data-answer="incorrect">Donald D. Knuth</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">John McCarthy</button>
+                            <button class="quiz-option" data-answer="correct">Alan Jay Perlis</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 3 div-->
+
+            <div class="quiz-item-4 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>The smallest unit of data in a computer?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="correct">Bit</button>
+                            <button class="quiz-option" data-answer="incorrect">Byte</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Nibble</button>
+                            <button class="quiz-option" data-answer="incorrect">Word</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 4 div-->
+
+            <div class="quiz-item-5 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>Which computer programming language is used for typesetting technical documents?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Python</button>
+                            <button class="quiz-option" data-answer="incorrect">Java</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="correct">LaTeX</button>
+                            <button class="quiz-option" data-answer="incorrect">C++</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 5 div-->
+
+            <div class="quiz-item-6 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>What is the full form of CPU?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Central Programming Unit</button>
+                            <button class="quiz-option" data-answer="correct">Central Processing Unit</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Control Processing Unit</button>
+                            <button class="quiz-option" data-answer="incorrect">Computer Personal Unit</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 6 div-->
+
+            <div class="quiz-item-7 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2> Which microblogging website was founded by David Karp?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Facebook</button>
+                            <button class="quiz-option" data-answer="incorrect">Twitter</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Reddit</button>
+                            <button class="quiz-option" data-answer="correct">Tumblr</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 7 div-->
+
+            <div class="quiz-item-8 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>Which was the first supercomputer?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="correct">CDC 6600</button>
+                            <button class="quiz-option" data-answer="incorrect">ENIAC</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">IBM 7030</button>
+                            <button class="quiz-option" data-answer="incorrect">Cray-1</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 8 div-->
+
+            <div class="quiz-item-9 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>What was the name of the first computer designed by Charles Babbage?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Difference Engine</button>
+                            <button class="quiz-option" data-answer="incorrect">Enigma Machine</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="correct">Analytical Engine</button>
+                            <button class="quiz-option" data-answer="incorrect">Colossus</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 9 div-->
+
+            <div class="quiz-item-10 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2> How many bits are in 1 byte?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">4</button>
+                            <button class="quiz-option" data-answer="correct">8</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">16</button>
+                            <button class="quiz-option" data-answer="incorrect">32</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 10 div-->
+
+            <div class="quiz-item-11 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2> What was the name of the first programmable computer?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="correct">ENIAC</button>
+                            <button class="quiz-option" data-answer="incorrect">Z3</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Colossus</button>
+                            <button class="quiz-option" data-answer="incorrect">UNIVAC</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 11 div-->
+
+            <div class="quiz-item-12 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>Who is the first programmer of the computer?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Alan Turing</button>
+                            <button class="quiz-option" data-answer="incorrect">Charles Babbage</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="correct">Ada Lovelace</button>
+                            <button class="quiz-option" data-answer="incorrect">Grace Hopper</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 12 div-->
+
+            <div class="quiz-item-13 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>Who is the father of the C language?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">James Gosling</button>
+                            <button class="quiz-option" data-answer="correct">Dennis Ritchie</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Bjarne Stroustrup</button>
+                            <button class="quiz-option" data-answer="incorrect">Guido van Rossum</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 13 div-->
+
+            <div class="quiz-item-14 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>Who coined the term "bug" to refer to unexplained computer failures?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Alan Turing</button>
+                            <button class="quiz-option" data-answer="incorrect">Charles Babbage</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Ada Lovelace</button>
+                            <button class="quiz-option" data-answer="correct">Grace Hopper</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 14 div-->
+
+            <div class="quiz-item-15 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>Which operating system was developed by Google?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="correct">Android</button>
+                            <button class="quiz-option" data-answer="incorrect">iOS</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Windows</button>
+                            <button class="quiz-option" data-answer="incorrect">Linux</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 15 div-->
+
+            <div class="quiz-item-16 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>Who invented the term artificial intelligence?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Alan Turing</button>
+                            <button class="quiz-option" data-answer="incorrect"> Marvin Minsky</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="correct">John McCarthy</button>
+                            <button class="quiz-option" data-answer="incorrect">Claude Shannon</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 16 div-->
+
+            <div class="quiz-item-17 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>Which phone had the first operating system?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Nokia 3310</button>
+                            <button class="quiz-option" data-answer="incorrect">Motorola DynaTAC 8000X</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="correct">IBM Simon</button>
+                            <button class="quiz-option" data-answer="incorrect">BlackBerry 850</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 17 div-->
+
+            <div class="quiz-item-18 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>What does FTP stand for in web design?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">File Transmission Process</button>
+                            <button class="quiz-option" data-answer="incorrect">Fast Transfer Protocol</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">File Text Processor</button>
+                            <button class="quiz-option" data-answer="correct">File Transfer Protocol</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 18 div-->
+
+            <div class="quiz-item-19 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>Who developed the Pascal language?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">James Gosling</button>
+                            <button class="quiz-option" data-answer="incorrect">Bjarne Stroustrup</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="correct">Niklaus Wirth</button>
+                            <button class="quiz-option" data-answer="incorrect">Dennis Ritchie</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 19 div-->
+
+            <div class="quiz-item-20 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>What was the first bug discovered in a computer software program in 1945?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="correct">A moth</button>
+                            <button class="quiz-option" data-answer="incorrect"> A broken transistor</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect"> A faulty vacuum tube
+                            </button>
+                            <button class="quiz-option" data-answer="incorrect">A power surge</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 20 div-->
+
+
+            <button type="button" class="next">Next</button>
+            <button type="button" class="finish">Finish</button>
+        </main>
+    </div>
+
+    <div class="congratulation ">
+        <div class="content-quiz-game d-flex flex-column align-items-center gap-4">
+            <span class="d-flex justify-content-center">Congratulation You are Finish the Game</span>
+            <div class="result d-flex justify-content-around">
+
+                <div>
+                    <h4 class="score">Score: 0</h4>
+                </div>
+
+                <div>
+                    <h4 class="questionscore">20 Questions / 20</h4>
+                </div>
+            </div> <!--Close the result div-->
+
+            <div class="d-flex align-items-center justify-content-around " style="width: 100%;">
+                <h2>IQ Level</h2>
+                <p class="level"></p>
+            </div> <!--Close the IQ div-->
+
+            <div class="d-flex justify-content-center align-items-center">
+                <button type="button" class="Re-Start">Re-Start</button>
+            </div>
+
+            <div class="mt-3 d-flex flex-column gap-4 view-page">
+                <span>The Questions inside this Game are available on this Page</span>
+                <div class="question-section-main">
+                    <a href="technology.html" class="question-section">
+                        <img src="technology.jpg" alt="Trivia GK Questions with technology Quiz Games">
+                        <p>Technology</p>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div> <!--Close the Congratulation div-->
+
+    <div class="parent-footer">
+        <div class="footer">
+
+            <div class="f-quiz-question d-flex flex-column gap-3">
+
+                <h3>Quiz Question</h3>
+
+                <div>
+                    <a href="general.html">
+                        <p>General Questions</p>
+                    </a>
+                    <a href="history.html">
+                        <p>History Questions</p>
+                    </a>
+                    <a href="geography.html">
+                        <p>Geography Questions</p>
+                    </a>
+                    <a href="sport.html">
+                        <p>Sports Questions</p>
+                    </a>
+                    <a href="science.html">
+                        <p>Science Questions</p>
+                    </a>
+                    <a href="literature.html">
+                        <p>Literature Questions</p>
+                    </a>
+                    <a href="technology.html">
+                        <p>Computer & Technology Questions</p>
+                    </a>
+                    <a href="warI.html">
+                        <p>World War I Questions</p>
+                    </a>
+                    <a href="warII.html">
+                        <p>World War II Questions</p>
+                    </a>
+                </div>
+
+            </div> <!--Footer Quiz Question Section-->
+
+            <span class="border-end"></span>
+
+            <div class="f-quiz-game d-flex flex-column gap-3">
+
+                <h3>Quiz Game</h3>
+
+                <div>
+
+                    <a href="generalgame.html">
+                        <p>General Quiz Game</p>
+                    </a>
+                    <a href="historygame.html">
+                        <p>History Quiz Game</p>
+                    </a>
+                    <a href="geographygame.html">
+                        <p>Geography Quiz Game</p>
+                    </a>
+
+                    <a href="sportgame.html">
+                        <p>Sports Quiz Game</p>
+                    </a>
+
+                    <a href="sciencegame.html">
+                        <p>Science Quiz Game</p>
+                    </a>
+                    <a href="literaturegame.html">
+                        <p>Literature Quiz Game</p>
+                    </a>
+
+                    <a href="technologygame.html">
+                        <p>Computer & Technology Quiz Game</p>
+                    </a>
+                    <a href="warIgame.html">
+                        <p>World War I Quiz Game</p>
+                    </a>
+
+                    <a href="warIIgame.html">
+                        <p>World War II Quiz Game</p>
+                    </a>
+                </div>
+
+
+            </div>
+
+        </div> <!--Footer Quiz Game Section-->
+    </div> <!--Close the Parent footer div-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="game.js"></script>
+</body>
+
+</html>
