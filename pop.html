@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop-culture Quiz Game</title>
+    <link rel="canonical" href="https://www.triviagk.com/Pop-culture-quiz-game"/>
+    <!-- <link rel="icon" href="./favicon.webp" type="image/webp"> -->
+    <link rel="icon" href="favicon.webp" type="image/webp">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="mentor.css">
+    <link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+    <header>
+        <h1>Pop-culture Quiz Game</h1>
+    </header>
+    <div class="question-content">
+        <main class="content-quiz-game d-flex flex-column gap-3 align-items-center">
+
+            <div class="result d-flex justify-content-around">
+
+                <div>
+                    <h4 class="score">Score: 0</h4>
+                </div>
+
+                <div>
+                    <h4 class="questionscore">20 Questions / 1</h4>
+                </div>
+
+            </div> <!--Close the result div-->
+
+            <div class="quiz-item-1">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>What is the most sold series of all time?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Lord of the Rings</button>
+                            <button class="quiz-option" data-answer="correct">Harry Potter</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Game of Thrones</button>
+                            <button class="quiz-option" data-answer="incorrect">Percy Jackson & the Olympians</button>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div> <!--Close the Quiz item 1 div-->
+
+            <div class="quiz-item-2 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>What is the highest grossing movie of all time?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Titanic</button>
+                            <button class="quiz-option" data-answer="incorrect">Star Wars</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Avengers: Endgame</button>
+                            <button class="quiz-option" data-answer="correct">Avatar</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+
+                </div>
+            </div> <!--Close the Quiz item 2 div-->
+
+            <div class="quiz-item-3 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>What is the name of the most popular video game franchise of all time?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="correct">Mario</button>
+                            <button class="quiz-option" data-answer="incorrect">Minecraft</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Call of Duty</button>
+                            <button class="quiz-option" data-answer="incorrect">Fortnite</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 3 div-->
+
+            <div class="quiz-item-4 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>Who played Draco in Black Widow?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">David Harbour</button>
+                            <button class="quiz-option" data-answer="incorrect">Sebastian Stan</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="correct">Ray Winstone</button>
+                            <button class="quiz-option" data-answer="incorrect">Tom Hiddleston</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 4 div-->
+
+            <div class="quiz-item-5 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>What was the most streamed song on Spotify in 2021?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Blinding Lights</button>
+                            <button class="quiz-option" data-answer="correct">Drivers license</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Stay</button>
+                            <button class="quiz-option" data-answer="incorrect">Bad Habits</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 5 div-->
+
+            <div class="quiz-item-6 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>What is the name of the most popular music band of all time?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">ABBA</button>
+                            <button class="quiz-option" data-answer="incorrect">The Rolling Stones</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Queen</button>
+                            <button class="quiz-option" data-answer="correct">The Beatles</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 6 div-->
+
+            <div class="quiz-item-7 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>Release in 2020, the final book in the "Twilight" series recounts Edward Cullen`s version of the story. What is it titled?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">New Moon</button>
+                            <button class="quiz-option" data-answer="incorrect">Eclipse</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Breaking Dawn</button>
+                            <button class="quiz-option" data-answer="correct">Midnight Sun</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 7 div-->
+
+            <div class="quiz-item-8 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>The widely-watched defamation trial of johnny Deep and Amber Heard aired on television when?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">January to March 2021</button>
+                            <button class="quiz-option" data-answer="incorrect">March to May 2021</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="correct">April to June 2022</button>
+                            <button class="quiz-option" data-answer="incorrect">July to September 2022</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 8 div-->
+
+            <div class="quiz-item-9 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>Who played the character Eleven in the hit Netflix series "Stranger Things"?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="correct">Millie Bobby Brown</button>
+                            <button class="quiz-option" data-answer="incorrect">Finn Wolfhard</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Natalia Dyer</button>
+                            <button class="quiz-option" data-answer="incorrect">Winona Ryder</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 9 div-->
+
+            <div class="quiz-item-10 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>What is the name of the most popular book of all time?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">The Lord of the Rings</button>
+                            <button class="quiz-option" data-answer="incorrect">Harry Potter</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="correct">The Bible</button>
+                            <button class="quiz-option" data-answer="incorrect">Moby-Dick</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 10 div-->
+
+            <div class="quiz-item-11 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>Which social media platform was most downloaded app worldwide in 2021?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Instagram</button>
+                            <button class="quiz-option" data-answer="incorrect">Facebook</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="correct">TikTok</button>
+                            <button class="quiz-option" data-answer="incorrect">WhatsApp</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 11 div-->
+
+            <div class="quiz-item-12 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>What is the name of the popular HBO series that chronicles the lives of a group of friends living in New York City?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="correct">Sex and the City</button>
+                            <button class="quiz-option" data-answer="incorrect">Friends</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">How I Met Your Mother</button>
+                            <button class="quiz-option" data-answer="incorrect">The Big Bang Theory</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 12 div-->
+
+            <div class="quiz-item-13 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>Hans Zimmer produced the score in which 2022 Oscar-winning film?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">The Batman</button>
+                            <button class="quiz-option" data-answer="correct">Dune</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">West Side Story</button>
+                            <button class="quiz-option" data-answer="incorrect">No Time to Die</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 13 div-->
+
+            <div class="quiz-item-14 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>Taylor Swift is named after what notable singer-songwriter?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Carly Simon</button>
+                            <button class="quiz-option" data-answer="incorrect">Paul Simon</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Joni Mitchell</button>
+                            <button class="quiz-option" data-answer="correct">James Taylor</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 14 div-->
+
+            <div class="quiz-item-15 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>Who played the character of joker in the 2019 movie of the same name?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Heath Ledger</button>
+                            <button class="quiz-option" data-answer="incorrect">Jared Leto</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="correct">Joaquin Phoenix</button>
+                            <button class="quiz-option" data-answer="incorrect">Christian Bale</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 15 div-->
+
+            <div class="quiz-item-16 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>What is the name of the popular K-pop girl group that released the song "Ice Cream" with Selena Gomez in 2020?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">TWICE</button>
+                            <button class="quiz-option" data-answer="incorrect">Red Velvet</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="correct">BLACKPINK</button>
+                            <button class="quiz-option" data-answer="incorrect">ITZY</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 16 div-->
+
+            <div class="quiz-item-17 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>What does the acronym "smh" stand for?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">So Much Hate</button>
+                            <button class="quiz-option" data-answer="correct">Shake My Head</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Shake My Hand</button>
+                            <button class="quiz-option" data-answer="incorrect">Send My Help</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 17 div-->
+
+            <div class="quiz-item-18 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>Who directed the 2023 blockbuster movie "Barbie"?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Patty Jenkins</button>
+                            <button class="quiz-option" data-answer="incorrect">Sofia Coppola</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="correct">Greta Gerwig</button>
+                            <button class="quiz-option" data-answer="incorrect">Taika Waititi</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 18 div-->
+
+            <div class="quiz-item-19 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>Which actor played the character of Iron Man in the Marvel Cinematic Universe?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Chris Evans</button>
+                            <button class="quiz-option" data-answer="correct">Robert Downey Jr.</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Mark Ruffalo</button>
+                            <button class="quiz-option" data-answer="incorrect">Chris Hemsworth</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 19 div-->
+
+            <div class="quiz-item-20 quiz-item">
+                <div class=" d-flex flex-column gap-4 align-items-center questions">
+                    <h2>What is the name of the popular Netflix series about chess that was released in 2020?</h2>
+
+                    <div class="child-quiz-item">
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">The Chess Master</button>
+                            <button class="quiz-option" data-answer="incorrect">Pawn's Move</button>
+                        </div>
+
+                        <div class="child-item">
+                            <button class="quiz-option" data-answer="incorrect">Checkmate</button>
+                            <button class="quiz-option" data-answer="correct">The Queen's Gambit</button>
+                        </div>
+                    </div> <!--Close the Child quiz item div-->
+                </div>
+            </div> <!--Close the Quiz item 20 div-->
+
+
+            <button type="button" class="next">Next</button>
+            <button type="button" class="finish">Finish</button>
+        </main>
+    </div>
+
+    <div class="congratulation ">
+        <div class="content-quiz-game d-flex flex-column align-items-center gap-4">
+            <span class="d-flex justify-content-center">Congratulation You are Finish the Game</span>
+            <div class="result d-flex justify-content-around">
+
+                <div>
+                    <h4 class="score">Score: 0</h4>
+                </div>
+
+                <div>
+                    <h4 class="questionscore">20 Questions / 20</h4>
+                </div>
+            </div> <!--Close the result div-->
+
+            <div class="d-flex align-items-center justify-content-around " style="width: 100%;">
+                <h2>IQ Level</h2>
+                <p class="level"></p>
+            </div> <!--Close the IQ div-->
+
+            <div class="d-flex justify-content-center align-items-center">
+                <button type="button" class="Re-Start">Re-Start</button>
+            </div>
+
+        </div>
+    </div> <!--Close the Congratulation div-->
+
+    <div class="parent-footer">
+        <div class="footer">
+
+            <div class="f-quiz-question d-flex flex-column gap-3">
+
+                <h3>Quiz Question</h3>
+
+                <div>
+                    <a href="general.html">
+                        <p>General Questions</p>
+                    </a>
+                    <a href="history.html">
+                        <p>History Questions</p>
+                    </a>
+                    <a href="geography.html">
+                        <p>Geography Questions</p>
+                    </a>
+                    <a href="sport.html">
+                        <p>Sports Questions</p>
+                    </a>
+                    <a href="science.html">
+                        <p>Science Questions</p>
+                    </a>
+                    <a href="literature.html">
+                        <p>Literature Questions</p>
+                    </a>
+                    <a href="technology.html">
+                        <p>Computer & Technology Questions</p>
+                    </a>
+                    <a href="warI.html">
+                        <p>World War I Questions</p>
+                    </a>
+                    <a href="warII.html">
+                        <p>World War II Questions</p>
+                    </a>
+                </div>
+
+            </div> <!--Footer Quiz Question Section-->
+
+            <span class="border-end"></span>
+
+            <div class="f-quiz-game d-flex flex-column gap-3">
+
+                <h3>Quiz Game</h3>
+
+                <div>
+
+                    <a href="generalgame.html">
+                        <p>General Quiz Game</p>
+                    </a>
+                    <a href="historygame.html">
+                        <p>History Quiz Game</p>
+                    </a>
+                    <a href="geographygame.html">
+                        <p>Geography Quiz Game</p>
+                    </a>
+
+                    <a href="sportgame.html">
+                        <p>Sports Quiz Game</p>
+                    </a>
+
+                    <a href="sciencegame.html">
+                        <p>Science Quiz Game</p>
+                    </a>
+                    <a href="literaturegame.html">
+                        <p>Literature Quiz Game</p>
+                    </a>
+
+                    <a href="technologygame.html">
+                        <p>Computer & Technology Quiz Game</p>
+                    </a>
+                    <a href="warIgame.html">
+                        <p>World War I Quiz Game</p>
+                    </a>
+
+                    <a href="warIIgame.html">
+                        <p>World War II Quiz Game</p>
+                    </a>
+                    <a href="pop.html">
+                        <p>Pop-culture Quiz Game</p>
+                    </a>
+                </div>
+
+
+            </div>
+
+        </div> <!--Footer Quiz Game Section-->
+    </div> <!--Close the Parent footer div-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="game.js"></script>
+</body>
+
+</html>
